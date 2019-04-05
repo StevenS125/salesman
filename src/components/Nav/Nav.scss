@@ -5,16 +5,38 @@ nav {
     font-family: "DDC Heading Font Face",Univers,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navHead {
+  padding-top: 25px;
+  float: left;
+  font-size: 30px;
+}
+
 .homeLogo {
     float: left;
 }
 
+h1 {
+	font-family: Origin, Helvetica Light, sans-serif;
+  margin: 0;
+  padding-top: 20px;
+  float: left;
+}
+
+a { 
+  height: 100px;
+  width: 100px;
+}
+
 ul {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: calc(100%-100px);
     list-style-type: none;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
   }
   
   li {
@@ -31,5 +53,7 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
   }

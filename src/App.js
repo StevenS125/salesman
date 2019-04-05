@@ -3,7 +3,10 @@ import './App.css';
 
 // Components
 import Nav from './components/Nav/Nav';
-import Hero from './components/Hero';
+import Hero from './components/Hero/Hero';
+import Questions from './components/QuestionsForm/Questions';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -11,6 +14,9 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Hero />
+        <Questions />
+        <About />
+        <Footer />
       </div>
     );
   }
